@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4C5660;
+}
+#section1 .main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 .main-div .card {
+    text-align: center;
+    background-color: #f2f1f6;
+    height: 24pc;
+    width: 26pc;
+    border-radius: 17px;
+    position: relative;
+    top: 10pc;
+}
+#section1 .main-div .card .plus {
+    position: relative;
+    left: 13pc;
+    border: none;
+    width: 4pc;
+    height: 4pc;
+    border-radius: 50px;
+    font-size: 3pc;
+    font-family: emoji;
+    box-shadow: 0 0 20px 5px rgba(240, 57, 107, 0.6);
+    background-color: #f0396b;
+    bottom: 6pc;
+}
+
+#section1 .main-div .card .plus:hover {
+    transform: translateY(-7px);
+}
+
+#section1 .main-div .card .p-info {
+    margin-top: 9px;
+    font-size: 10px;
+    color: grey;
+}
+
+#section1 .main-div .card img {
+    width: 15pc;
+    height: 15pc;
+    margin-top: 1pc;
+    border-radius: 53%;
+    object-fit: cover;
+}
+
+#section1 .main-div .card .card-part {
+    display: flex;
+    gap: 5pc;
+    position: relative;
+    justify-content: center;
+    top: -1pc;
+    font-family: fantasy;
+}
+#section1 .main-div .card .info {
+    display: flex;
+    gap: 2pc;
+    position: absolute;
+    left: 5pc;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: grey;
+    font-size: 14px;
+    top: 24pc;
+}
+
+#section1 .main-div .card .button-zone {
+    margin-top: -3pc;
+    background-color: #f9f9fd;
+    height: 15pc;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: -4pc;
+    gap: 1pc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section1 .main-div .card .button-zone button {
+    width: 12pc;
+    height: 3pc;
+    border: none;
+    margin-top: 7pc;
+    background-color: #2fbfb0;
+    border-radius: 4pc;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#section1 .main-div .card .button-zone p a {
+    color: grey;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#section1 .main-div .card .button-zone p {
+    position: relative;
+    top: 1pc;
+}
+
+#section1 .main-div .card .button-zone button:hover {
+    transform: translateY(-7px);
+}
+
+#section1 .main-div .card:hover {
+    transform: translateY(-7px);
+}
+
+#section1 .main-div .card .button-zone i {
+    position: relative;
+    left: 2.5pc;
+    bottom: 1pc;
+    color: grey;
+}

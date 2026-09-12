@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: transform 0.3s;
+    box-sizing: border-box;
+    font-family: arial;
+    overflow: hidden;
+}
+
+#section .main-div {
+    display: flex;
+    gap: 6pc;
+    justify-content: center;
+    margin-top: 14pc;
+    margin: 4pc;
+}
+
+#section .main-div .div1 {
+    display: flex;
+    flex-direction: column;
+    width: 13pc;
+    height: 18pc;
+    background-color: rgb(232, 227, 227);
+    border-radius: 8%;
+    text-align: center;
+    align-items: center;
+}
+
+#section .main-div .div1 p {
+    font-size: 9px;
+    margin: 1pc;
+}
+#section .main-div .div1 h2 {
+    color: rgb(250, 26, 101);
+    margin-top: 12px;
+}
+
+#section .main-div .div1 img {
+    width: 12pc;
+    margin: 0 auto;
+    margin-top: 7px;
+    border-radius: 9px;
+    height: 7pc;
+}
+
+#section .main-div .div1 button {
+    width: 6pc;
+    border: none;
+    border-radius: 21pc;
+    height: 2pc;
+    background-color: rgb(250, 26, 101);
+    color: white;
+    font-size: 11px;
+}
+
+#section .main-div .div2 {
+    display: flex;
+    flex-direction: column;
+    width: 13pc;
+    height: 18pc;
+    background-color: #d5fffb;
+    border-radius: 8%;
+    text-align: center;
+    align-items: center;
+}
+
+#section .main-div .div2 p {
+    font-size: 9px;
+    margin: 1pc;
+}
+#section .main-div .div2 h2 {
+    color: rgb(58, 56, 56);
+    margin-top: 12px;
+}
+
+#section .main-div .div2 img {
+    width: 12pc;
+    margin: 0 auto;
+    margin-top: 7px;
+    border-radius: 9px;
+    height: 7pc;
+}
+
+#section .main-div .div2 button {
+    width: 6pc;
+    border: none;
+    border-radius: 21pc;
+    height: 2pc;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    font-size: 11px;
+}
+
+#section .main-div .div3 {
+    display: flex;
+    flex-direction: column;
+    width: 13pc;
+    height: 18pc;
+    background-color: #d5fffb;
+    border-radius: 8%;
+    text-align: center;
+    align-items: center;
+}
+
+#section .main-div .div3 p {
+    font-size: 9px;
+    margin: 1pc;
+}
+#section .main-div .div3 h2 {
+    color: rgb(58, 56, 56);
+    margin-top: 12px;
+}
+
+#section .main-div .div3 img {
+    width: 12pc;
+    margin: 0 auto;
+    margin-top: 7px;
+    border-radius: 9px;
+    height: 7pc;
+}
+
+#section .main-div .div3 button {
+    width: 6pc;
+    border: none;
+    border-radius: 21pc;
+    height: 2pc;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    font-size: 11px;
+}
+
+#section .main-div .div1:hover,
+.div2:hover,
+.div3:hover {
+    transform: translateY(-5px);
+}
+#section .main-div .div1,.div2,.div3{
+        margin-top: 2pc;
+}
