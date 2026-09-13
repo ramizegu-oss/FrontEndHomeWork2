@@ -24,6 +24,7 @@ body{
 }
 #section1 .main-div .card .plus {
     position: relative;
+    color: white;
     left: 13pc;
     border: none;
     width: 4pc;
